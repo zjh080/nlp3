@@ -1,5 +1,5 @@
 Vocabulary类  
-1、在Vocabulary类中，mask_token对应的索引通过调用add_token方法赋值给self.$\underline{mask\_index}$ 属性。
+1、在Vocabulary类中，mask_token对应的索引通过调用add_token方法赋值给self. $\underline{mask\_index}$ 属性。
 
 2、lookup_token方法中，如果self.unk_index >=0，则对未登录词返回 $\underline{unk\_index}$ 。
 
@@ -8,7 +8,7 @@ Vocabulary类
 CBOWVectorizer类   
 4、vectorize方法中，当vector_length < 0时，最终向量长度等于 $\underline{indices}$ 的长度。
 
-5、from_dataframe方法构建词表时，会遍历DataFrame中$\underline{text}$和$\underline{label}$两列的内容。
+5、from_dataframe方法构建词表时，会遍历DataFrame中 $\underline{text}$ 和 $\underline{label}$ 两列的内容。
 
 6、out_vector[len(indices):]的部分填充为self.cbow_vocab.$\underline{unk\_token\_id}$。
 
