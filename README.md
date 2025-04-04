@@ -1,5 +1,5 @@
 Vocabulary类  
-1、在Vocabulary类中，mask_token对应的索引通过调用add_token方法赋值给self. $\underline{mask\_index}$ 属性。
+1、在Vocabulary类中，mask_token对应的索引通过调用add_token方法赋值给self.$\underline{mask\_index}$ 属性。
 
 2、lookup_token方法中，如果self.unk_index >=0，则对未登录词返回 $\underline{unk\_index}$ 。
 
