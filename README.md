@@ -29,7 +29,7 @@
 
 13、训练时classifier.train()的作用是启用训练（training）和Dropout模式。
 
-14、反向传播前必须执行优化器（optimizer）.zero_grad()清空梯度。
+14、反向传播前必须执行优化器optimizer.zero_grad()清空梯度。
 
 15、compute_accuracy中y_pred_indices通过argmax方法获取预测类别。
 
